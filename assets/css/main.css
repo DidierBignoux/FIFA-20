@@ -257,7 +257,9 @@ h2 {
 h3 {
   font-size: 1.35em;
 }
-
+section h3 {
+  color: #0f34b5;
+}
 a {
   color: #d52349;
   text-decoration: underline;
@@ -2608,6 +2610,7 @@ ul.social li a.fa-google-plus:hover {
   html,
   body {
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
 
   /* Box */

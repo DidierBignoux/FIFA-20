@@ -30,7 +30,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
-  font-size: 6px;
+  font-size: 12px;
   letter-spacing: 5px;
   margin-top: 5%;
 }
@@ -41,7 +41,7 @@ body {
 .seconds {
   display: inline-block;
   padding: 8px;
-  width: 75px;
+  width: 150px;
   border-radius: 5px;
 }
 
@@ -81,14 +81,26 @@ body {
 }
 
 @media screen and (max-width: 980px) {
-  .container {
-    width: calc(100% - 80px);
+  #timer {
+    font-size: 6px;
+  }
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    width: 75px;
   }
 }
 
 @media screen and (max-width: 736px) {
-  .container {
-    width: calc(100% - 40px);
+  #timer {
+    font-size: 6px;
+  }
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    width: 75px;
   }
 }
 
